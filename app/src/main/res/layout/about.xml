@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="900px"
+                android:background="@drawable/default_img" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="40px"
+                android:background="@drawable/about_background"
+                android:padding="30px"
+                android:text="作者：李小兵"
+                android:textSize="50px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="40px"
+                android:background="@drawable/about_background"
+                android:padding="30px"
+                android:text="联系作者：148199921@qq.com"
+                android:textSize="50px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1380px"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
